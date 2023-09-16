@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.14/18105
 // Filename: a.ggsk
-// Generated 2023-09-16T21:05:18
+// Generated 2023-09-16T21:42:44
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -125,10 +125,10 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 9px;';
+		hs+='bottom : 31px;';
 		hs+='height : 25px;';
 		hs+='position : absolute;';
-		hs+='right : 39px;';
+		hs+='right : 107px;';
 		hs+='visibility : inherit;';
 		hs+='width : 25px;';
 		hs+='pointer-events:none;';
@@ -176,11 +176,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
+		hs+='bottom : 0px;';
 		hs+='cursor : pointer;';
 		hs+='height : 25px;';
-		hs+='left : 0px;';
 		hs+='position : absolute;';
-		hs+='top : 0px;';
+		hs+='right : 0px;';
 		hs+='visibility : hidden;';
 		hs+='width : 25px;';
 		hs+='pointer-events:auto;';
@@ -254,11 +254,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
+		hs+='bottom : 0px;';
 		hs+='cursor : pointer;';
 		hs+='height : 25px;';
-		hs+='left : 0px;';
 		hs+='position : absolute;';
-		hs+='top : 0px;';
+		hs+='right : 0px;';
 		hs+='visibility : inherit;';
 		hs+='width : 25px;';
 		hs+='pointer-events:auto;';
@@ -304,10 +304,10 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 9px;';
+		hs+='bottom : 31px;';
 		hs+='height : 25px;';
 		hs+='position : absolute;';
-		hs+='right : 63px;';
+		hs+='right : 131px;';
 		hs+='visibility : inherit;';
 		hs+='width : 66px;';
 		hs+='pointer-events:none;';
@@ -347,11 +347,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
+		hs+='bottom : 0px;';
 		hs+='cursor : pointer;';
 		hs+='height : 25px;';
-		hs+='left : 13px;';
 		hs+='position : absolute;';
-		hs+='top : 0px;';
+		hs+='right : 28px;';
 		hs+='visibility : hidden;';
 		hs+='width : 25px;';
 		hs+='pointer-events:auto;';
@@ -418,11 +418,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
+		hs+='bottom : 0px;';
 		hs+='cursor : pointer;';
 		hs+='height : 25px;';
-		hs+='left : 13px;';
 		hs+='position : absolute;';
-		hs+='top : 0px;';
+		hs+='right : 28px;';
 		hs+='visibility : inherit;';
 		hs+='width : 25px;';
 		hs+='pointer-events:auto;';
@@ -492,11 +492,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
+		hs+='bottom : 0px;';
 		hs+='cursor : pointer;';
 		hs+='height : 25px;';
-		hs+='left : 39px;';
 		hs+='position : absolute;';
-		hs+='top : 0px;';
+		hs+='right : 2px;';
 		hs+='visibility : inherit;';
 		hs+='width : 25px;';
 		hs+='pointer-events:auto;';
@@ -542,10 +542,10 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 7px;';
+		hs+='bottom : 29px;';
 		hs+='height : 25px;';
 		hs+='position : absolute;';
-		hs+='right : 127px;';
+		hs+='right : 195px;';
 		hs+='visibility : inherit;';
 		hs+='width : 32px;';
 		hs+='pointer-events:none;';
@@ -594,11 +594,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
+		hs+='bottom : 2px;';
 		hs+='cursor : pointer;';
 		hs+='height : 25px;';
-		hs+='left : 0px;';
 		hs+='position : absolute;';
-		hs+='top : -2px;';
+		hs+='right : 0px;';
 		hs+='visibility : hidden;';
 		hs+='width : 32px;';
 		hs+='pointer-events:auto;';
@@ -683,11 +683,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
+		hs+='bottom : 2px;';
 		hs+='cursor : pointer;';
 		hs+='height : 25px;';
-		hs+='left : 0px;';
 		hs+='position : absolute;';
-		hs+='top : -2px;';
+		hs+='right : 0px;';
 		hs+='visibility : inherit;';
 		hs+='width : 32px;';
 		hs+='pointer-events:auto;';
@@ -1832,11 +1832,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_button ";
 		el.ggType='button';
 		hs ='';
-		hs+='bottom : 9px;';
+		hs+='bottom : 31px;';
 		hs+='cursor : pointer;';
 		hs+='height : 24px;';
 		hs+='position : absolute;';
-		hs+='right : 174px;';
+		hs+='right : 242px;';
 		hs+='visibility : inherit;';
 		hs+='width : 26px;';
 		hs+='pointer-events:auto;';
@@ -2396,51 +2396,6 @@ function pano2vrSkin(player,base) {
 		me._button_2.ggUpdatePosition=function (useTransition) {
 		}
 		me.divSkin.appendChild(me._button_2);
-		el=me._text_1=document.createElement('div');
-		els=me._text_1__text=document.createElement('div');
-		el.className='ggskin ggskin_textdiv';
-		el.ggTextDiv=els;
-		el.ggId="Text 1";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
-		el.ggType='text';
-		hs ='';
-		hs+='z-index: 9999;';
-		hs+='height : 228px;';
-		hs+='left : 105px;';
-		hs+='position : absolute;';
-		hs+='top : 143px;';
-		hs+='visibility : inherit;';
-		hs+='width : 280px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		hs ='position:absolute;';
-		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
-		hs+='left: 0px;';
-		hs+='top:  0px;';
-		hs+='width: 280px;';
-		hs+='height: 228px;';
-		hs+='border: 0px solid #000000;';
-		hs+='color: #000000;';
-		hs+='text-align: center;';
-		hs+='white-space: nowrap;';
-		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
-		els.setAttribute('style',hs);
-		els.innerHTML="<div id=\"fb-root\"><\/div><div id=\"fb-customer-chat\" class=\"fb-customerchat\"><\/div>";
-		el.appendChild(els);
-		me._text_1.ggIsActive=function() {
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			return player.getCurrentNode();
-		}
-		me._text_1.ggUpdatePosition=function (useTransition) {
-		}
-		me.divSkin.appendChild(me._text_1);
 		player.addListener('sizechanged', function() {
 			me.updateSize(me.divSkin);
 		});
