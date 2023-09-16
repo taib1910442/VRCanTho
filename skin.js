@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.14/18105
 // Filename: a.ggsk
-// Generated 2023-09-16T20:53:26
+// Generated 2023-09-16T21:05:18
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -2430,7 +2430,7 @@ function pano2vrSkin(player,base) {
 		hs+='padding: 0px 1px 0px 1px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
-		els.innerHTML="<!-- Messenger Plugin chat Code --><br\/>    <div id=\"fb-root\"><\/div><br\/>    <!-- Your Plugin chat code --><br\/>    <div id=\"fb-customer-chat\" class=\"fb-customerchat\"><br\/>    <\/div><br\/><br\/>    <script><br\/>      var chatbox = document.getElementById(\'fb-customer-chat\');<br\/>      chatbox.setAttribute(\"page_id\", \"106116907844762\");<br\/>      chatbox.setAttribute(\"attribution\", \"biz_inbox\");<br\/>    <\/script><br\/><br\/>    <!-- Your SDK code --><br\/>    <script><br\/>      window.fbAsyncInit = function() {<br\/>        FB.init({<br\/>          xfbml            : true,<br\/>          version          : \'v18.0\'<br\/>        });<br\/>      };<br\/><br\/>      (function(d, s, id) {<br\/>        var js, fjs = d.getElementsByTagName(s)[0];<br\/>        if (d.getElementById(id)) return;<br\/>        js = d.createElement(s); js.id = id;<br\/>        js.src = \'https:\/\/connect.facebook.net\/vi_VN\/sdk\/xfbml.customerchat.js\';<br\/>        fjs.parentNode.insertBefore(js, fjs);<br\/>      }(document, \'script\', \'facebook-jssdk\'));<br\/>    <\/script>";
+		els.innerHTML="<div id=\"fb-root\"><\/div><div id=\"fb-customer-chat\" class=\"fb-customerchat\"><\/div>";
 		el.appendChild(els);
 		me._text_1.ggIsActive=function() {
 			return false;
@@ -2441,7 +2441,6 @@ function pano2vrSkin(player,base) {
 		me._text_1.ggUpdatePosition=function (useTransition) {
 		}
 		me.divSkin.appendChild(me._text_1);
-			player.playSound("_background","1");
 		player.addListener('sizechanged', function() {
 			me.updateSize(me.divSkin);
 		});
