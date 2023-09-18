@@ -42,9 +42,52 @@
 		<br>Loading...<br><br>
 		</div>
 		<script type="text/javascript">
+		function parseParams(paramsString, params) {
+			paramsString = paramsString.substring(1);
+			var firstSeparatorPos = paramsString.indexOf(",");
+			if (firstSeparatorPos != -1) {
+				params.startNode = paramsString.slice(0, firstSeparatorPos);
+				var viewingParamsString = paramsString.slice(firstSeparatorPos + 1);
+				var viewingParams = viewingParamsString.split(",");
+				if (viewingParams.length >= 3) {
+					var startView = {};
+					startView["pan"] = viewingParams[0];
+					startView["tilt"] = viewingParams[1];
+					startView["fov"] = viewingParams[2];
+					if (viewingParams.length >= 4) {
+						startView["projection"] = viewingParams[3];
+					}
+					params.startView = startView;
+				}
+			} else {
+				params.startNode = paramsString;
+				params.startView = "";
+			}
+		}
+		var params = {};
+		parseParams(document.location.hash, params);
+		var startNode = params.startNode;
+		var startView = params.startView;
+		if (("onhashchange" in window) && (!(/MSIE (\d+\.\d+);/.test(navigator.userAgent)))) {
+			window.onhashchange = function () {
+				parseParams(window.location.hash, params);
+				pano.openNext('{' + params.startNode + '}', params.startView);
+         	}
+	    } else {
+        	var lastHash = window.location.hash;
+        	window.setInterval(function () {
+	           	if (window.location.hash != lastHash) {
+   	        		lastHash = window.location.hash;
+					parseParams(window.location.hash, params);
+					pano.openNext('{' + params.startNode + '}', params.startView);
+        	   	}
+        	}, 100);
+		}
 	
 			// create the panorama player with the container
 			pano=new pano2vrPlayer("container");
+			pano.startNode = startNode;
+			pano.startView = startView;
 			// add the skin object
 			skin=new pano2vrSkin(pano);
 			// load the configuration
