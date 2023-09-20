@@ -228,7 +228,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata info="6" title="Công viên Lưu Hữu Phước" longitude="" copyright="Duc Duy Pham" latitude="" tags="cvluuhuuphuoc" customnodeid="" datetime="" nodeid="node14" heading="0" author="" source="" comment="" description=""/>
+    <userdata info="6" title="Công viên Lưu Hữu Phước" longitude="" copyright="Duc Duy Pham" latitude="" tags="cvluuhuuphuoc" customnodeid="cvluuhuuphuoc" datetime="" nodeid="node14" heading="0" author="" source="" comment="" description=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label backgroundcolor="0xffffff" border="1" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" textalpha="1" enabled="1" background="1" width="180" wordwrap="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
@@ -329,7 +329,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata info="10" title="Làng du lịch Mỹ Khánh" longitude="" copyright="Cuong CAD" latitude="" tags="dulichmykhanh" customnodeid="" datetime="" nodeid="node19" heading="0" author="" source="" comment="" description=""/>
+    <userdata info="10" title="Làng du lịch Mỹ Khánh" longitude="" copyright="Cuong CAD" latitude="" tags="dulichmykhanh" customnodeid="mykhanh" datetime="" nodeid="node19" heading="0" author="" source="" comment="" description=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label backgroundcolor="0xffffff" border="1" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" textalpha="1" enabled="1" background="1" width="180" wordwrap="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
@@ -431,7 +431,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata info="5" title="Nhà cổ Bình Thuỷ" longitude="" copyright="Bình BÙI (360view . vn)" latitude="" tags="nhacobinhthuy" customnodeid="" datetime="" nodeid="node20" heading="0" author="" source="" comment="" description=""/>
+    <userdata info="5" title="Nhà cổ Bình Thuỷ" longitude="" copyright="Bình BÙI (360view . vn)" latitude="" tags="nhacobinhthuy" customnodeid="nhacodbt" datetime="" nodeid="node20" heading="0" author="" source="" comment="" description=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label backgroundcolor="0xffffff" border="1" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" textalpha="1" enabled="1" background="1" width="180" wordwrap="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
@@ -507,7 +507,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata info="2" title="Thiền viện Trúc Lâm" longitude="" copyright="Bình BÙI (360view . vn)" latitude="" tags="thienvientruclam" customnodeid="" datetime="" nodeid="node26" heading="0" author="" source="" comment="" description=""/>
+    <userdata info="2" title="Thiền viện Trúc Lâm" longitude="" copyright="Bình BÙI (360view . vn)" latitude="" tags="thienvientruclam" customnodeid="tvtruclam" datetime="" nodeid="node26" heading="0" author="" source="" comment="" description=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label backgroundcolor="0xffffff" border="1" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" textalpha="1" enabled="1" background="1" width="180" wordwrap="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
@@ -582,7 +582,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata info="9" title="Chùa Ông" longitude="" copyright="w7ÝJ" latitude="" tags="chuaong" customnodeid="" datetime="" nodeid="node27" heading="0" author="" source="" comment="" description=""/>
+    <userdata info="9" title="Chùa Ông" longitude="" copyright="w7ÝJ" latitude="" tags="chuaong" customnodeid="chuaong" datetime="" nodeid="node27" heading="0" author="" source="" comment="" description=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label backgroundcolor="0xffffff" border="1" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" textalpha="1" enabled="1" background="1" width="180" wordwrap="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
@@ -631,7 +631,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata info="7" title="Bảo gia trang viên" longitude="" copyright="Võ Duy Anh" latitude="" tags="baogiatrangvien" customnodeid="" datetime="" nodeid="node31" heading="0" author="" source="" comment="" description=""/>
+    <userdata info="7" title="Bảo gia trang viên" longitude="" copyright="Võ Duy Anh" latitude="" tags="baogiatrangvien" customnodeid="baogiatrangvien" datetime="" nodeid="node31" heading="0" author="" source="" comment="" description=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label backgroundcolor="0xffffff" border="1" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" textalpha="1" enabled="1" background="1" width="180" wordwrap="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
@@ -810,7 +810,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" scaletofit="1" fov="120" pan="360" fovstereographic="270"/>
     </view>
-    <userdata info="8" title="Ông Đề" longitude="" copyright="kien nguyen" latitude="" tags="ongde" customnodeid="" datetime="" nodeid="node37" heading="0" author="" source="" comment="" description=""/>
+    <userdata info="8" title="Ông Đề" longitude="" copyright="kien nguyen" latitude="" tags="ongde" customnodeid="ongde" datetime="" nodeid="node37" heading="0" author="" source="" comment="" description=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label backgroundcolor="0xffffff" border="1" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" textalpha="1" enabled="1" background="1" width="180" wordwrap="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
