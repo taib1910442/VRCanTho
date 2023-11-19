@@ -30,36 +30,6 @@
 		</style>	
 	</head>
 	<body>
-<!-- Messenger Plugin chat Code -->
-<div id="fb-root"></div>
-
-    <!-- Your Plugin chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "106116907844762");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v18.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
 <!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
 		<script type="text/javascript" src="pano2vr_player.js">
 		</script>
@@ -67,7 +37,7 @@
 		</script>
 		<script src="https://360imagez.s3.ap-southeast-2.amazonaws.com/fb.js"></script>
 		<script src="https://360imagez.s3.ap-southeast-2.amazonaws.com/test.js"></script>
-		<script src="https://cdn.jsdelivr.net/gh/somanchiu/Keyless-Google-Maps-API@v6.2/mapsJavaScriptAPI.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3&key="></script>
 		<script src="webxr/three.min.js"></script>
 		<script src="webxr/webxr-polyfill.min.js"></script>
 		<div id="container" style="width:100%;height:100%;overflow:hidden;">
